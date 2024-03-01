@@ -1,0 +1,17 @@
+/*footer en la parte de abajo de la columna izquierda del menu del layout*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: #8a7e7e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border-top: 1px solid #f0f0f0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}

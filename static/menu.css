@@ -1,14 +1,19 @@
 .menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 20px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  height: 60px;
-  margin-bottom: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #8a7e7e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+    border-right: 1px solid #f0f0f0;
+    padding-top: 20px;
+    box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.1);
 
   a {
     margin-right: 20px;

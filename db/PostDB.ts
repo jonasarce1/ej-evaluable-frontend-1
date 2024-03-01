@@ -10,7 +10,7 @@ const PostSchema = new Schema ({
     name: {type: String, required: true},
     author: {type: String, required: true},
     date: {type: Date, required: true},
-    desc:  {type: String, required: false}    
+    desc:  {type: String, required: true}    
 })
 
 export type PostModelType = mongoose.Document & InferSchemaType<typeof PostSchema>
